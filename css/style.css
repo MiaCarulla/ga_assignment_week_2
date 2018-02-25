@@ -1,0 +1,214 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-weight: 800;
+	color:white;
+	position: absolute;
+	font-size: 40px;
+	margin-left: 10%;
+
+}
+
+h2.black_benefit {
+	margin-top:0px;
+	text-align: left;
+	margin-left: 100px;
+	color: #033048;
+	padding-top:100px;
+	margin-bottom:20px;
+
+}
+
+h2 {
+	color:white;
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 150px;
+	margin: 0px 0px 60px 0px;
+	
+
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 30px;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	color: white;
+	padding-top: 120px;
+	margin-top: 0px;
+}
+
+strong {
+	font-weight:600;
+	text-align:center;
+	line-height: 5px;	
+}
+
+h4 {
+	font-weight: 800;
+	color:  #f9e42e;
+	font-size: 40px;
+	text-align: center;
+
+}
+
+.benefits p {
+	text-align:left;
+	padding-right: 50%;
+	padding-right:20%;
+	font-size: 25px;
+	font-weight: 300;
+	margin-left: 100px;
+	color: #121212;
+}
+
+section button a{
+	text-decoration: none;
+}
+
+.container button {
+	color: #033048;
+	text-decoration: none;
+	padding: 10px 60px 10px 60px;
+	border:none;
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 420px;
+	background-color: #f9e42e;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+
+.sign_up button {
+	color:white;
+	padding: 10px 60px 10px 60px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+	border-radius: 5px;
+	background-color: #033048;
+	font-weight:600;
+}
+
+.sign_up button a {
+	color:white;
+}
+
+ul {
+	font-weight:300;
+	font-size:25px;
+	margin:0px 0px 0px 150px;
+	padding: 0px 500px 70px 40px;
+	color:#121212;
+}
+
+img{
+	padding-right:40px;
+}
+
+footer {
+	font-weight:600;
+	font-size:10px;
+	text-align: center;
+	background-color: #121212;
+	height: 400px;
+	color:white;
+	padding-top: 30px;
+}
+
+footer p {
+ 	padding-top: 100px;
+ }
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  	max-width: 90%;
+  	margin: 0 auto;
+  	width: 1024px;
+}
+
+div.quote_container{
+ margin-top:0px;
+}
+
+.benefits {
+	background-size: cover;
+  	margin: 0 auto;
+	background-color: #f0efef;
+}
+
+.sign_up {
+	background-color: #f9e42e;
+	text-align: center;
+	padding: 40px 40px 40px 40px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	height:600px;
+}
+
+.quote{
+	background: url("../images/testimonial_bg.jpg");
+	height:400px;
+}
+
+
+
+
+
+
+
+
+
+
+
