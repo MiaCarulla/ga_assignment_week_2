@@ -2,9 +2,6 @@
 Project Name: Blank Template
 Client: Your Client
 Author: Your Name
-Developer @GA in NYC
-*/
-
 
 /******************************************
 /* SETUP
@@ -203,11 +200,135 @@ div.quote_container{
 
 
 
+/******************************************
+/* BLOG STYLES
+/*******************************************/
+header{
+	background-color:#033048;
+}
+
+section{
+	background-color:#f0efef;
+	
+}
+nav {
+	float:right;
+}
+
+ul{
+	padding:40px;
+}
+
+.blog li{
+	display:inline-block;
+}
+
+.blog a{
+	color: #f9e42e;
+	text-decoration:none;
+	margin-right:80px;
+}
 
 
+/***************** MAIN COLUMN STYLING **************************/
 
 
+.main_column .main_container{
+	margin-left: 168.797px;
+	margin-right:40px;
+	padding-top:70px;
+	float:left;
+	position: absolute;
+}
 
 
+.column h2{
+	color:#033048;
+	padding:0px;
+	margin:0px;
+	text-align:left;
+	font-weight: 600px;
+}
+
+.column p{
+	color:#606161;
+	font-size: 20px;
+	font-weight:300;
+}
+
+.main_column p::first-letter{
+	float:left;
+	font-size:300%;
+	padding-right:10px;
+	font-weight:600;
+}
+
+.cta{
+	float:right;
+	padding-bottom:40px;
+}
+
+.column {
+	width: 56%;
+	margin:0px;
+}
+
+a.read{
+	float:right;
+}
 
 
+/***************** SIDE COLUMN STYLING **************************/
+
+div.small_container {
+	margin-bottom:900px;
+}
+
+.small_column .small_container{
+	float:right;
+	clear:both;
+	
+	height:auto;
+}
+
+aside.column{
+	margin-right:0px;
+	float:right;
+}
+
+.column h3{
+	color:#606161;
+	margin-left: 0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	text-align:left;
+}
+
+.clearfix h3{
+	padding-top:50px;
+	color:#033048;
+}
+ul.side_menu{
+	margin-left:0px;
+	padding:0;
+	list-style:none;
+}
+
+.side_menu a{
+	text-decoration:none;
+}
+
+h3 strong{
+	text-align:left;
+	font-weight:800;
+}
+p{
+	padding-right:20%
+	;
+}
+
+.read{
+	font-weight:600;
+}
