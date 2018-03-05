@@ -235,9 +235,6 @@ ul{
 	margin-right:80px;
 }
 
-img{
-
-}
 /***************** MAIN COLUMN STYLING **************************/
 
 
@@ -334,9 +331,9 @@ h3 strong{
 	text-align:left;
 	font-weight:800;
 }
+
 p{
-	padding-right:20%
-	;
+	padding-right:20%;
 }
 
 .read{
