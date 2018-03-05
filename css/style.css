@@ -187,6 +187,7 @@ div.quote_container{
 	background-color: #f9e42e;
 	text-align: center;
 	padding: 40px 40px 40px 40px;
+	position: relative;
 }
 
 /******************************************
@@ -235,11 +236,8 @@ ul{
 	margin-right:80px;
 }
 
-img{
 
-}
 /***************** MAIN COLUMN STYLING **************************/
-
 
 .main_column .main_container{
 	margin-left: 168.797px;
@@ -334,6 +332,7 @@ h3 strong{
 	text-align:left;
 	font-weight:800;
 }
+
 p{
 	padding-right:20%
 	;
