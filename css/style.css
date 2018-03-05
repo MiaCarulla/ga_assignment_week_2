@@ -154,7 +154,13 @@ footer {
 
 footer p {
  	padding-top: 100px;
+ 	padding-right:0px;
  }
+
+a.blog{
+	color:#f9e42e;
+	text-decoration: none;
+}
 
 /******************************************
 /* LAYOUT
@@ -229,7 +235,9 @@ ul{
 	margin-right:80px;
 }
 
+img{
 
+}
 /***************** MAIN COLUMN STYLING **************************/
 
 
@@ -269,7 +277,7 @@ ul{
 }
 
 .column {
-	width: 56%;
+	width: 50%;
 	margin:0px;
 }
 
@@ -277,11 +285,13 @@ a.read{
 	float:right;
 }
 
-
+hr{
+	margin-top:30px;
+}
 /***************** SIDE COLUMN STYLING **************************/
 
 div.small_container {
-	margin-bottom:900px;
+	margin-bottom:1000px;
 }
 
 .small_column .small_container{
@@ -330,5 +340,8 @@ p{
 }
 
 .read{
+	color:#033048;
 	font-weight:600;
+	font-size:20px;
+	text-decoration: none;
 }
