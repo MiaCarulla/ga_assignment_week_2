@@ -249,7 +249,8 @@ ul{
 
 .column h2{
 	color:#033048;
-	padding:0px;
+	padding-top:0px;
+	padding-bottom:20px;
 	margin:0px;
 	text-align:left;
 	font-weight: 600px;
@@ -257,7 +258,7 @@ ul{
 
 .column p{
 	color:#606161;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight:300;
 }
 
@@ -305,7 +306,10 @@ aside.column{
 
 .column h3{
 	color:#606161;
-	margin:0px;
+	margin-left: 0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
 	padding-top:0px;
 	text-align:left;
 }
@@ -316,7 +320,7 @@ aside.column{
 }
 ul.side_menu{
 	margin-left:0px;
-	padding:0px;
+	padding:0;
 	list-style:none;
 }
 
