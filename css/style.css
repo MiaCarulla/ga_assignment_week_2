@@ -305,10 +305,7 @@ aside.column{
 
 .column h3{
 	color:#606161;
-	margin-left: 0px;
-	margin-right:0px;
-	margin-top:0px;
-	margin-bottom:0px;
+	margin:0px;
 	padding-top:0px;
 	text-align:left;
 }
@@ -319,7 +316,7 @@ aside.column{
 }
 ul.side_menu{
 	margin-left:0px;
-	padding:0;
+	padding:0px;
 	list-style:none;
 }
 
@@ -340,5 +337,5 @@ p{
 	color:#033048;
 	font-weight:600;
 	font-size:20px;
-	text-decoration: none;
+	text-decoration:none;
 }
